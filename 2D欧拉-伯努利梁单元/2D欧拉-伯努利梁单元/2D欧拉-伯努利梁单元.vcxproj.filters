@@ -23,11 +23,8 @@
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="有限元计算例题.cpp">
+    <ClCompile Include="2D欧拉-伯努利梁单元.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Eigen\Dense" />
   </ItemGroup>
 </Project>
