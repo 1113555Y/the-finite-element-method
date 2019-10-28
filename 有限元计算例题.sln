@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "有限元计算例题", "有限元计算例题\有限元计算例题.vcxproj", "{81CEC9CC-2734-4208-B026-1200974D7A07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81CEC9CC-2734-4208-B026-1200974D7A07}.Debug|x64.ActiveCfg = Debug|x64
+		{81CEC9CC-2734-4208-B026-1200974D7A07}.Debug|x64.Build.0 = Debug|x64
+		{81CEC9CC-2734-4208-B026-1200974D7A07}.Debug|x86.ActiveCfg = Debug|Win32
+		{81CEC9CC-2734-4208-B026-1200974D7A07}.Debug|x86.Build.0 = Debug|Win32
+		{81CEC9CC-2734-4208-B026-1200974D7A07}.Release|x64.ActiveCfg = Release|x64
+		{81CEC9CC-2734-4208-B026-1200974D7A07}.Release|x64.Build.0 = Release|x64
+		{81CEC9CC-2734-4208-B026-1200974D7A07}.Release|x86.ActiveCfg = Release|Win32
+		{81CEC9CC-2734-4208-B026-1200974D7A07}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86241B9F-D9AB-47A7-9568-91E8A9A0FAF8}
+	EndGlobalSection
+EndGlobal
