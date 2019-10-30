@@ -1,0 +1,44 @@
+<TrussElement>
+    <paramclass name="Truss单元参数" value="">
+        <param name="节点坐标" type="table" operate="add">
+            <row value="x，y"/>
+            <row value="double，double"/>
+            <row value="-4500，0"/>
+            <row value="-1500，0"/>
+            <row value="1500，0"/>
+            <row value="4500，0"/>
+            <row value="-3000，3000"/>
+            <row value="0，3000"/>
+            <row value="3000，3000"/>
+        </param>
+        <param name="单元的节点编号" type="table" operate="add">
+            <row value="节点1，节点2"/>
+            <row value="int,int"/>
+            <row value="0，1"/>
+            <row value="1，2"/>
+            <row value="2，3"/>
+            <row value="4，5"/>
+            <row value="5，6"/>
+            <row value="0，4"/>
+            <row value="1，5"/>
+            <row value="2，6"/>
+            <row value="1，4"/>
+            <row value="2，5"/>
+            <row value="3，6"/>
+        </param>
+        <param name="载荷" type="table" operate="add">
+            <row value="自由度，力"/>
+            <row value="int,double"/>
+            <row value="9，-100000"/>
+            <row value="11，-100000"/>
+            <row value="13，-100000"/>
+        </param>
+        <param name="约束" type="table" operate="add">
+            <row value="自由度"/>
+            <row value="int"/>
+            <row value="0"/>
+            <row value="1"/>
+            <row value="7"/>
+        </param>
+    </paramclass>
+</TrussElement>
